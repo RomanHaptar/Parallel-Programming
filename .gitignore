@@ -1,0 +1,18 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled byte code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated test directories and files (I/O tasks)
+test_io_files/
+test_io_data_*/
+
+# IDE configuration files (PyCharm / VS Code)
+.idea/
+.vscode/
