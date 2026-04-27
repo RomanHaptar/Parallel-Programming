@@ -1,0 +1,36 @@
+# ---------- Python ----------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# ---------- C# / .NET ----------
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+
+# ---------- Runtime / generated data ----------
+task2-ipc-py-cs/ipc_runtime/
+
+# ---------- Generated results ----------
+results/*.csv
+report_assets/charts/*.png
+report_assets/screenshots/*.png
+report_assets/screenshots/*.jpg
+report_assets/screenshots/*.jpeg
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
